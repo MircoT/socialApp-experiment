@@ -33,3 +33,5 @@ http://your_server_url:3000/app
 Naturally you can modify the server port and make the changes on the client side.
 
 The client part is a **Ionic Project**, so you can manage the dependencies with **bower** and install the app on the devices supported. If you need some information you can find it in the [official documentation](http://ionicframework.com/docs/cli/).
+
+**Notes:** To simplify the development the **socket.io** library is fixed in the client side and in the server side the version is blocked.**.
