@@ -1,9 +1,9 @@
 # socialApp-experiment
-An experimental project for an University seminary inside HKBU/UniPG Internship 2015.
+An experimental project for an *University seminary* inside **HKBU/UniPG Internship 2015**.
 
 ## Info
 
-The topic of the seminaries during the intership was *The social network*, so this app shows you how a simple multiplatform web chat can be created using simply Javascript and WebSockets. In particular in this project was used:
+The topic of the seminaries during the intership was *The social network*, so this app shows you how a simple multiplatform web chat can be created using simply *Javascript* and *WebSockets*. In particular in this project was used:
 
 * [Ionic Framework](http://ionicframework.com/) -> used for the client side
 * [Express](http://expressjs.com/) -> to serve the static files
