@@ -4,6 +4,6 @@
   "description": "HKBU Summer Camp chat server",
   "dependencies": {
     "express": "^4.10.2",
-    "socket.io": "^1.3.5"
+    "socket.io": "1.3.5"
   }
 }
