@@ -1,0 +1,23 @@
+<ion-view view-title="Chat">
+  <ion-content>
+    <form ng-submit="sendMessage()">
+      <div class="item item-input-inset">
+          <label class="item-input-wrapper" >
+            <input type="text" style="width: 100%;" placeholder="Write something..." ng-model="message.text" />
+          </label>
+          <button type="submit" class="button button-small" ng-click="sendMessage()">
+            Send
+          </button>
+      </div>
+    </form>
+    <ion-scroll zooming="true" direction="y">
+      <ion-list>
+        <ion-item class="item-remove-animate item-icon-left" ng-repeat="message in chat | reverse" type="item-text-wrap">
+          <i class="icon ion-person" ng-class=" message.user == getUsername() ? 'positive' : 'dark'"></i>
+          <p>{{message.user}} :</p>
+          <h2>{{message.text}}</h2>
+        </ion-item>
+      </ion-list>
+    </ion-scroll>
+  </ion-content>
+</ion-view>
