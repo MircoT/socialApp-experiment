@@ -1,5 +1,5 @@
 # socialApp-experiment
-An experimental project for an *University seminary* inside **HKBU/UniPG Internship 2015**.
+An experimental project for an *University seminary* inside **HKBU-UniPG Exchange Programme 2015**.
 
 ## Info
 
